@@ -47,6 +47,8 @@ h1,h3{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 50px;
+    flex-wrap: wrap;
+    
     
 }
 
@@ -76,9 +78,8 @@ footer{
     height: 20px;
 }
 
-
-    
-
-
-
-
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+     }}
