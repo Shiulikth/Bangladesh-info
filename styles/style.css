@@ -1,4 +1,4 @@
-header{
+h1,h3{
     text-align: center;
 }
 
@@ -8,6 +8,7 @@ header{
     margin: 0 auto;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 120px;
   
 }
 
@@ -27,7 +28,7 @@ header{
      margin-right: auto;
  }
 
- #link{
+ .link{
      background-image: linear-gradient(45deg,red,green,red);
      text-decoration: none;
      color:white;
@@ -36,11 +37,40 @@ header{
      border-radius: 5px;
  }
 
- #link:hover{
+ .link:hover{
      background-image: linear-gradient(blue,lightpink);
      cursor: pointer;
      color: red;
  }
+.Devisions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.devision{
+    width: 250px;
+    height:600px;
+    border: 2px solid red;
+    background-color: rgba(231, 243, 232, 0.534);
+}
+
+.devision img{
+    width: 100%;
+    height: 30%;
+}
+
+.devision-details{
+    padding: 0 10px;
+    text-align: justify;
+}
+
+.name{
+    text-align: center;
+}
+
+
     
 
 
